@@ -1,8 +1,10 @@
+using System.ComponentModel.DataAnnotations;
 
 namespace Ganaderia.Data.Models;
 
 public class Vaca
 {
+    [Key]
     public int VacaId { get; set; }
     public string Raza { get; set; } = null!;
     public string Color { get; set; } = null!;

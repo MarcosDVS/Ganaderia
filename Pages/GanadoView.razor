@@ -1,0 +1,50 @@
+@page "/ganado"
+
+<PageTitle>Lista Del Ganado</PageTitle>
+<h1>Lista Del Ganado</h1>
+
+<div class="row">
+    <div class="col">
+        <input type="text" @bind="Filtro">
+    </div>
+    <div class="col">
+        <button class="btn btn-primary" >Buscar</button>
+        <button class="btn btn-success"> 
+            <span class="oi oi-plus"></span>
+        </button>
+    </div>
+</div>
+
+  <table class="table">
+        <thead>
+            <tr>
+                <th>Número</th>
+                <th>Raza</th>
+                <th>Color</th>
+                <th>Sexo</th>
+                <th>Fecha de Nacimiento</th>
+                <th>Peso/Nacer</th>
+                <th>Observación</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var Vaca in Vacas)
+            {
+                <tr>
+                    <td>@Vaca.VacaId</td>
+                    <td>@Vaca.Raza</td>
+                    <td>@Vaca.Color</td>
+                    <td>@Vaca.Sexo</td>
+                    <td>@Vaca.Nacimiento</td>
+                    <td>@Vaca.Peso</td>
+                    <td>@Vaca.Observacion</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+@code
+{
+    public string Filtro { get; set; } = "";
+    public List<Vaca> Vacas { get; set; } =new List<Vaca>();
+}

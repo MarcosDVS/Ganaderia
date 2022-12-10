@@ -45,39 +45,6 @@
         }
       },
       {
-        "HashCode": -1027317388,
-        "Kind": "Components.Component",
-        "Name": "Ganaderia.Pages.FetchData",
-        "AssemblyName": "Ganaderia",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Ganaderia.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": 1926445738,
-        "Kind": "Components.Component",
-        "Name": "Ganaderia.Pages.FetchData",
-        "AssemblyName": "Ganaderia",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Ganaderia.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Ganaderia.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 1252739087,
         "Kind": "Components.Component",
         "Name": "Ganaderia.Pages.Index",
@@ -111,35 +78,35 @@
         }
       },
       {
-        "HashCode": 1338683890,
+        "HashCode": -1380138751,
         "Kind": "Components.Component",
-        "Name": "Ganaderia.App",
+        "Name": "Ganaderia.Pages.GanadoView",
         "AssemblyName": "Ganaderia",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "GanadoView"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Ganaderia.App"
+          "Common.TypeName": "Ganaderia.Pages.GanadoView"
         }
       },
       {
-        "HashCode": 1887396460,
+        "HashCode": -1351644091,
         "Kind": "Components.Component",
-        "Name": "Ganaderia.App",
+        "Name": "Ganaderia.Pages.GanadoView",
         "AssemblyName": "Ganaderia",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Ganaderia.App"
+            "TagName": "Ganaderia.Pages.GanadoView"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Ganaderia.App",
+          "Common.TypeName": "Ganaderia.Pages.GanadoView",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -322,6 +289,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "Ganaderia.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1338683890,
+        "Kind": "Components.Component",
+        "Name": "Ganaderia.App",
+        "AssemblyName": "Ganaderia",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Ganaderia.App"
+        }
+      },
+      {
+        "HashCode": 1887396460,
+        "Kind": "Components.Component",
+        "Name": "Ganaderia.App",
+        "AssemblyName": "Ganaderia",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Ganaderia.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Ganaderia.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -16612,8 +16612,8 @@
   "RootNamespace": "Ganaderia",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Usuario\\Desktop\\Ganaderia\\Pages\\FetchData.razor",
-      "TargetPath": "Pages\\FetchData.razor",
+      "FilePath": "c:\\Users\\Usuario\\Desktop\\Ganaderia\\Pages\\GanadoView.razor",
+      "TargetPath": "Pages\\GanadoView.razor",
       "FileKind": "component"
     },
     {

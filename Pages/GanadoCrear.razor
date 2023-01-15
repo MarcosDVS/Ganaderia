@@ -1,0 +1,76 @@
+@page "/ganado/comprado"
+<!--Aqui registran las vacas compradas -->
+<PageTitle>Registrar Ganado</PageTitle>
+<h1>Registrar Ganado</h1>
+
+<button class="btn btn-danger" @onclick="back" >Back</button>
+
+<EditForm Model="@Datos" OnValidSubmit="@Registrar">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="row">
+        <h3>Individuo</h3>
+        <div class="col">
+            <label for="txtNumeracion">Numeración</label>
+            <InputNumber id="txtNumeracion" class="form-control" @bind-Value="Datos.VacaId"/>
+        </div>
+        <div class="col">
+            <label for="txtRaza">Raza</label>
+            <InputText id="txtRaza" class="form-control" @bind-Value="Datos.Raza"/>
+        </div>
+        <div class="col">
+            <label for="txtColor">Color</label>
+            <InputText id="txtColor" class="form-control" @bind-Value="Datos.Color"/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <label for="txtSexo">Sexo</label>
+            <InputSelect id="txtSexo" class="form-control" @bind-Value="Datos.Sexo" >
+                <Option>Masculino</Option>
+                <Option>Femenino</Option>
+            </InputSelect>
+        </div>
+        <div class="col">
+            <label for="txtNacimiento">Fecha de Nacimiento</label>
+            <InputDate id="txtNacimiento" class="form-control" @bind-Value="Datos.Nacimiento" />
+        </div>
+        <div class="col">
+            <label for="txtPeso">Peso/Kilos</label>
+            <InputNumber id="txtPeso" class="form-control" @bind-Value="Datos.Peso"/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <label for="txtCosto">Costo</label>
+            <InputNumber id="txtCosto" class="form-control" @bind-Value="Datos.Costo"/>
+        </div>
+        <div class="col">
+            <label for="txtRegistro">Registro</label>
+            <InputText id="txtRegistro" class="form-control" @bind-Value="Datos.Registro"/>
+        </div>
+        <div class="col">
+            <label for="txtObservacion">Observación</label>
+            <InputTextArea id="txtObservacion" class="form-control" @bind-Value="Datos.Observacion"/>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <button class="btn btn-success" type="submit">
+            <span class="oi oi-plus"></span> Registrar
+        </button>
+    </div>
+</EditForm>
+
+@code
+{
+    public VacaComprada Datos { get; set; } = new VacaComprada();
+    void back()
+    {
+        urlHelper.NavigateTo("/ganado");
+    }
+    void Registrar()
+    {
+        urlHelper.NavigateTo("/ganado");
+    }
+}

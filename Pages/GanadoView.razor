@@ -9,8 +9,14 @@
     </div>
     <div class="col">
         <button class="btn btn-primary" >Buscar</button>
-        <button class="btn btn-success"> 
-            <span class="oi oi-plus"></span>
+        <button class="btn btn-warning"> 
+            <span class="oi oi-pencil"></span>
+        </button>
+        <button class="btn btn-success" @onclick="AgregarCompra"> 
+            <span class="oi oi-plus"></span> Comprado
+        </button>
+        <button class="btn btn-success" @onclick="AgregarNacido"> 
+            <span class="oi oi-plus"></span> Nacio/Finca
         </button>
     </div>
 </div>
@@ -46,5 +52,14 @@
 @code
 {
     public string Filtro { get; set; } = "";
-    public List<Vaca> Vacas { get; set; } =new List<Vaca>();
+    public List<Padre> Vacas { get; set; } =new List<Padre>();
+
+    void AgregarCompra()
+    {
+        urlHelper.NavigateTo("/ganado/comprado");
+    }
+    void AgregarNacido()
+    {
+        urlHelper.NavigateTo("/ganado/nacido");
+    }
 }

@@ -1,0 +1,45 @@
+@page "/ganado/padre"
+
+<PageTitle>Registrar Ganado</PageTitle>
+<h1>Registrar Ganado</h1>
+
+<button class="btn btn-danger" @onclick="back" >Back</button>
+
+<EditForm Model="@Datos" OnValidSubmit="@Registrar">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="row">
+        <h3>Padre Del Ternero</h3>
+        <div class="col">
+            <label for="txtNumeracion">Numeración</label>
+            <InputNumber id="txtNumeracion" class="form-control" @bind-Value="Datos.VacaId"/>
+        </div>
+        <div class="col">
+            <label for="txtRaza">Raza</label>
+            <InputText id="txtRaza" class="form-control" @bind-Value="Datos.Raza"/>
+        </div>
+        <div class="col">
+            <label for="txtColor">Color</label>
+            <InputText id="txtColor" class="form-control" @bind-Value="Datos.Color"/>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <button class="btn btn-success" type="submit">
+            <span class="oi oi-plus"></span> Registrar
+        </button>
+    </div>
+</EditForm>
+
+@code
+{
+    public Padre Datos { get; set; } = new Padre();
+    void back()
+    {
+        urlHelper.NavigateTo("/ganado/nacido");
+    }
+    void Registrar()
+    {
+        urlHelper.NavigateTo("/ganado/madre");
+    }
+}

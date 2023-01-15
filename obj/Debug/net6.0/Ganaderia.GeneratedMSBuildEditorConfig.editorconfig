@@ -23,12 +23,40 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Usuario/Desktop/Ganaderia/Pages/GanadoCrear.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FuYWRvQ3JlYXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuario/Desktop/Ganaderia/Pages/GanadoMadre.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FuYWRvTWFkcmUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuario/Desktop/Ganaderia/Pages/GanadoNacido.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FuYWRvTmFjaWRvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuario/Desktop/Ganaderia/Pages/GanadoPadre.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FuYWRvUGFkcmUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Usuario/Desktop/Ganaderia/Pages/GanadoView.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FuYWRvVmlldy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Usuario/Desktop/Ganaderia/Pages/GastosView.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FzdG9zVmlldy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Usuario/Desktop/Ganaderia/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuario/Desktop/Ganaderia/Pages/Produccion.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjY2lvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuario/Desktop/Ganaderia/Pages/Vender.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVuZGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Usuario/Desktop/Ganaderia/Shared/SurveyPrompt.razor]

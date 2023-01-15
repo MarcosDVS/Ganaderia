@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using Ganaderia.Data;
 using Ganaderia.Data.Context;
+using Ganaderia.Data.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,7 +14,7 @@ builder.Services.AddSingleton<WeatherForecastService>();
 builder.Services.AddSqlite<GanaderiaDbContext>("Data Source=.//Data//Context//GanaderiaDb.sqlite");
 builder.Services.AddScoped<IGanaderiaDbContext,GanaderiaDbContext>();
 #endregion
-
+//builder.Services.AddScoped<IVacaService,VacaService>();
 
 var app = builder.Build();
 

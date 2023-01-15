@@ -14,6 +14,9 @@ public class GanaderiaDbContext:DbContext,IGanaderiaDbContext
 
     #region Tablas
     public virtual DbSet<Vaca> Vacas => Set<Vaca>();
+    public virtual DbSet<VacaComprada> Compradas => Set<VacaComprada>();
+    public virtual DbSet<Padre> Padres => Set<Padre>();
+    public virtual DbSet<Madre> Madres => Set<Madre>();
     #endregion
 
     #region Funciones
